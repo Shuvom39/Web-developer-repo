@@ -2,9 +2,6 @@ body{
     font-family: 'Open Sans', sans-serif;;
 }
 
-nav{
-    display: flex;
-}
 .nav-title{
     color: #181818;
 font-size: 45px;
@@ -26,10 +23,23 @@ nav {
     display: flex;
     align-items:center ;
     justify-content: space-between;
+    margin: 0 200px;
 }
 nav a {
     text-decoration: none;
     color: #474747;
+}
+.header{
+    background-color: #FFF8F3;
+
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
 }
 .btn-primary{
     border-radius: 5px;
